@@ -2,7 +2,6 @@ import React from "react";
 import ReactAnimatedWeather from "react-animated-weather";
 
 export default function WeatherIcon(props) {
-  console.log(props.code);
   const codeMapping = {
     "http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png":
       "CLEAR_DAY",
