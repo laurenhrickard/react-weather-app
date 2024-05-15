@@ -7,3 +7,7 @@
   opacity: 0.6;
   margin-left: 10px;
 }
+
+.WeatherForecast canvas {
+  margin: 0 auto;
+}

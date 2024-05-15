@@ -27,10 +27,11 @@ body {
   line-height: 19px;
   list-style: none;
 }
+
 .Weather canvas {
   margin-right: 5px auto;
   margin-top: 5px;
-  display: inline-block;
+  display: flex;
 }
 
 .WeatherInfo .temperature {
@@ -39,6 +40,7 @@ body {
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+  display: inline-block;
 }
 
 .Weather .temperature {
@@ -47,6 +49,7 @@ body {
   font-size: 64px;
   font-weight: 400;
   line-height: 64px;
+  display: inline-block;
 }
 
 .Weather .unit {
