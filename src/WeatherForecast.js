@@ -11,6 +11,8 @@ export default function WeatherForecast(props) {
     setLoaded(false);
   }, [props.coordinates]);
 
+  // use when
+
   function handleResponse(response) {
     setForecast(response.data.daily);
     setLoaded(true);
@@ -27,6 +29,8 @@ export default function WeatherForecast(props) {
                   <WeatherForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
             }
           })}
         </div>
